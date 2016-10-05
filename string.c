@@ -11,7 +11,7 @@ int my_strlen(char *s)
 
 int main(void)
 {
-    int i;
+    int i, j;
     char *s[] = {"Git tutorials", "Tutorials Point"};
 
     for (i = 0; i < 2; ++i)
