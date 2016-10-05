@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 char *my_strcpy(char *t, char *s)
 {
