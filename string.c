@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+char *my_strcpy(char *t, char *s)
+{
+    char *p = t;
+    while (*t++ = *s++);
+    return p;
+}
+
 int my_strlen(char *s)
 {
     char *p = s;
@@ -11,7 +18,7 @@ int my_strlen(char *s)
 
 int main(void)
 {
-    int i, j;
+    int i;
     char *s[] = {"Git tutorials", "Tutorials Point"};
 
     for (i = 0; i < 2; ++i)
