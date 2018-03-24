@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* test */
 char *my_strcpy(char *t, char *s)
 {
     char *p = t;
