@@ -9,7 +9,7 @@ size_t my_strlen(char *s)
 
    return (p - s);
 }
-
+/*main function */
 int main(void)
 {
    int i;
